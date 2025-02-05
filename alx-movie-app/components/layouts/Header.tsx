@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Button from "../commons/Button";
 
+
 const Header: React.FC = () => {
   return (
     <header className="h-28 flex items-center bg-[#171D22] px-4 md:px-16 lg:px-44 text-white">
@@ -29,7 +30,7 @@ const Header: React.FC = () => {
           <Button title="Sign in" />
         </div>
         <div className="hidden md:flex">
-          <Button title="Sign in" />
+          <Button title="Sign up" />
         </div>
       </div>
     </header>
